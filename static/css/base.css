@@ -1,8 +1,34 @@
 body {
     overflow: hidden;
+    /* Background color used  */
+    background: linear-gradient(#123 30%, #667);
+    color: white;
 }
 
 section.container {
     min-height: 100vh;
     min-width: 100vw;
 }
+
+
+/* Styles for snow effect*/
+@keyframes snowfall {
+    0%{
+        background-position: 0 0, 0 0, 0 0, 0 0;
+    }
+    100%{
+        background-position: -500px 1000px, -400px 400px, 300px 700px;
+    }
+}
+
+.snow_top {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url('/media/snow1.png'), url('/media/snow4.png'), url('/media/snow3.png');
+    animation: snowfall 30s linear infinite;
+}
+
+
