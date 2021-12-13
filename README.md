@@ -45,7 +45,7 @@
 
 This website is the project for Code Institutes' December 2021 Hackathon created by John Traas, Claudia Lai, Marialena Livathinopoulou, David Paul Thompson and Adam Boley, collectively the team called The Newbies, since this is the first hackathon project undertaken by each member. 
 
-The website is named The Hangry Elf, and is a combination advent calendar and recipe site. Each day of December is represented by a card item. When the card is clicked, it expands and displays a simple recipe for that day. An effort was made to source recipes from different countries and cultures, for the purposes of diversity, since the hackathon theme is not specifically Christmas, but the December holidays generally. Of particular note are the dishes traditionally made and eaten by Jews during Hannukah, since Hannukah 2021 falls partly in December. 
+The website is named The Hangry Elf, and is a combination advent calendar and recipe site. Each day of December is represented by a card item. When the card is clicked, it links to a simple recipe for that day. An effort was made to source recipes from different countries and cultures, for the purposes of diversity, since the hackathon theme is not specifically Christmas, but the December holidays generally. Of particular note are the dishes traditionally made and eaten during Hannukah, since Hannukah 2021 falls partly in December. 
 
 The recipes are held in a linked database. When a user creates an account, the recipes held behind each card are randomly generated from this database. As each day elapses, the recipe for that day unlocks. 
 
